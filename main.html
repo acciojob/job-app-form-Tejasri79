@@ -10,27 +10,16 @@
 	 <form action="/submit" method="post">
 
         <label for="name">Name*:</label>
-        <input type="text" id="name" name="name" required>
-
+        <input type="text" id="name" placeholder="Name" required>
         <br>
-
         <label for="email">Email*:</label>
-        <input type="email" id="email" name="email" required>
-
+        <input type="email" id="email" placeholder="Email" required>
         <br>
-
-        <label>Gender*:</label>
-        <input type="radio" id="male" name="gender" value="male" required>
-        <label for="male">Male</label>
-
-        <input type="radio" id="female" name="gender" value="female" required>
-        <label for="female">Female</label>
-
-        <input type="radio" id="other" name="gender" value="other" required>
-        <label for="other">Other</label>
-
-        <br>
-
+        <label for="gender_m,gender_f">Gender*:</label>
+        <label for="gender_m">Male</label>
+		 <input type="radio" id="gender_m" name="gender"  required><br>
+        <label for="gender_f">Female</label>
+        <input type="radio" id="gender_f" name="gender"  required><br>
         <label for="laptop">Laptop Brands:</label>
         <select id="laptop" name="laptop">
             <option value="apple">Apple</option>
@@ -41,17 +30,17 @@
         <br>
 
         <label for="age">Age*:</label>
-        <input type="number" id="age" name="age" required>
+        <input type="number" id="age" placeholder="age" required>
 
         <br>
 
         <label for="dob">Date of Birth*:</label>
-        <input type="date" id="dob" name="dob" required>
+        <input type="date" id="dob" required>
 
         <br>
 
         <label for="password">Password*:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" id="password" placeholder="password" required>
 
         <br>
 
